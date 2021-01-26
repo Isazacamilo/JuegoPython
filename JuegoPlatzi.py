@@ -11,7 +11,7 @@ import time
 url="https://opentdb.com/api.php?amount=1&category=21&difficulty=medium&type=multiple"
 numerovalido = False
 while numerovalido == False:
-    numparticipantes = (input("\nEscribe el numero de personas que van a jugar el dia de hoy:   "))
+    numparticipantes = (input("\nEscribe el numero de personas que participaran el dia de hoy:   "))
     try:
         numparticipantes = int(numparticipantes)
         numerovalido = True
