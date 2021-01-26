@@ -16,7 +16,7 @@ while numerovalido == False:
         numparticipantes = int(numparticipantes)
         numerovalido = True
     except:
-        print("La respuesta debe ser solo con numeros..........")
+        print("La respuesta debe contener solo con numeros..........")
 
 numerovalido=False
 while numerovalido == False:
