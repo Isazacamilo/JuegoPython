@@ -32,7 +32,7 @@ j=1
 i=1
 
 while j <= numparticipantes:
-    x = input("\nNombre participante numero"+str(j) + ":  ")
+    x = input("\nNombre del participante numero"+str(j) + ":  ")
     participantes.append(x)
     correctas = [0] * len(participantes)
     incorrectas = [0] * len(participantes)
