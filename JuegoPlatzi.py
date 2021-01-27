@@ -20,7 +20,7 @@ while numerovalido == False:
 
 numerovalido=False
 while numerovalido == False:
-    ronda = (input("\nEscribe el numero de rondas que quieres jugar:   "))
+    ronda = (input("\nEscribe el numero de rondas que vas a jugar:   "))
     try:
         ronda = int(ronda)
         numerovalido = True
