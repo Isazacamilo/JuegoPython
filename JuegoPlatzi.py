@@ -86,7 +86,7 @@ while i <= ronda:
                 print("\nFelicidades, tienes buenos conocimientos en este tema, efectivamente la respuesta era: "+ html.unescape(respcorrecta))
                 correctas[res] += 1
             else:
-                print("\nPam Pam Pam Pam, respondiste mal, tu elegiste "+html.unescape(respuestaUsuario) +". Pero la respuesta correcta era: "+html.unescape(respcorrecta))
+                print("\nTu respuesta es incorrecta, tu elegiste "+html.unescape(respuestaUsuario) +". Pero la respuesta correcta era: "+html.unescape(respcorrecta))
                 incorrectas[res] += 1
             time.sleep(2)
             os.system("cls")
